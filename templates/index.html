@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/18fe446eba.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="basliq">
+      <div class="bir">GUI Firewall Helper by Aysel,Səma,Kənan</div>
+      <div class="iki">Aşağıdakı funksiyalardan istifadə edin</div>
+    </div>
+    <div class="hamisi">
+      <div class="main">
+        <div class="aktiv">
+          <button class="aktiv1">
+            <div class="font1"><i class="fa-solid fa-check-to-slot"></i></div>
+            <a href="/resulton/">Firewallı aktiv et</a>
+          </button>
+        </div>
+        <div class="deaktiv">
+          <button class="deaktiv1">
+            <div class="font2"><i class="fa-solid fa-circle-xmark"></i></div>
+            <a href="/resultoff/">Firewallı Deaktiv et</a>
+          </button>
+        </div>
+        <div class="ping-yolla">
+          <form name="sema" action="/func" method="POST">
+            <label for="input">Ipni daxil edin:</label>
+            <input type="text" id="input" name="input" />
+            <input type="submit" value="ping yolla" />
+          </form>
+        </div>
+        <div class="icaze">
+          <form name="sema" action="/icaze" method="POST">
+            <label for="input">Ipni daxil edin:</label>
+            <input type="text" id="input" name="icaze" />
+            <input type="submit" value="icaze ver" />
+          </form>
+        </div>
+        <div class="blokla">
+          <form name="sema" action="/blok" method="POST">
+            <label for="input">Ipni daxil edin:</label>
+            <input type="text" id="input" name="blok" />
+            <input type="submit" value="blok" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
