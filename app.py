@@ -73,7 +73,7 @@ def qiymetleralma():
     return redirect(url_for('icaze',allow = icaze))
     
 if __name__ == "__main__":
-    app.run(debug=False,host = "0.0.0.0")
+    app.run(debug=False,host = "0.0.0.0",port 443)
 
 
 # pymysql, mysql-connector, mysql-connector-python
